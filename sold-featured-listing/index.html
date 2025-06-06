@@ -92,6 +92,9 @@
 <link rel='stylesheet' id='aios-mobile-header-main-css' href='https://www.quianawatson.com/wp-content/plugins/aios-all-widgets/modules/aios-mobile-header//views/lib/css/style.css?ver=6.6.2' type='text/css' media='all' />
 <link rel='stylesheet' id='aios-mobile-header-main-print-css' href='https://www.quianawatson.com/wp-content/plugins/aios-all-widgets/modules/aios-mobile-header//views/lib/css/style-print.css?ver=6.6.2' type='text/css' media='print' />
 <link rel="stylesheet" id="aios-mobile-header-theme-header3a-css" type="text/css" media="all" data-pmdelayedstyle="https://www.quianawatson.com/wp-content/plugins/aios-all-widgets/modules/aios-mobile-header/views/frontend/header3a/css/style.css?ver=6.6.2">
+
+<link  rel='stylesheet'  href='/css/custom.css' type='text/css'  />
+
 <script type="text/javascript" src="https://resources.agentimage.com/libraries/jquery/jquery-1.12.4-wp.js?ver=1.12.4-wp" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://www.idxhome.com/service/resources/dist/wordpress/bundle.js?1747907649801" id="ihf-bundle-js-js"></script>
 <script type="text/javascript" src="https://resources.agentimage.com/libraries/js/bowser-scripts.js" id="aios-starter-theme-bowser-js"></script>
@@ -341,7 +344,17 @@ button[data-target="#ihf-advanced-search-regions"] {
 
 </div><!-- end of ampl wrapper -->
 	
-	<header class="header-wrapper mob_hidden">
+	<div id="google_translate_element" style="transform: translateY(-30px); z-index: 50; position: fixed; margin-left: 130px; "></div>
+	<script type="text/javascript">
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+	}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<script type="text/javascript" src="/js/googletranscookie.js"></script>
+		
+		<header class="header-wrapper mob_hidden">
 		<div class="header-contact-info mob_hidden">
 			<div class="textwidget custom-html-widget"><span class="header-contact contact-phone"><i class="ai-font-phone"></i><em class="ai-mobile-phone"><a href="tel:+1 (848) 633‑9708" class="aios-ai-phone " aria-label="+1 (848) 633‑9708">+1 (848) 633‑9708</a></em></span>
 				<span class="header-contact contact-email"><i class="ai-font-envelope-f"></i><a class="asis-mailto-obfuscated-email-hidden asis-mailto-obfuscated-email " aria-label="infiniteshares18(at)gmail(dotted)com" data-value="infiniteshares18(at)gmail(dotted)com">infiniteshares18(at)gmail(dotted)com</a></span>

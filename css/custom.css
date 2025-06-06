@@ -1,0 +1,25 @@
+/* Hide text "Powered by Google Translate" */
+.goog-logo-link {
+  display: none !important;
+}
+
+/* Remove background color and clean up extra styles */
+.goog-te-gadget {
+  font-size: 0 !important;
+  height: 24px !important;
+  overflow: hidden !important;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none !important;
+  height: 0;
+}
+
+@media screen and (max-width: 991px) {
+  #google_translate_element {
+    height: 0px;
+    margin-top: 50px;
+    position: static !important ;
+    margin-left: 5px !important ;
+  }
+}
