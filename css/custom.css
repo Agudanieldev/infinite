@@ -18,7 +18,7 @@
 @media screen and (max-width: 991px) {
   #google_translate_element {
     height: 0px;
-    margin-top: 10px;
+    margin-top: 60px;
     position: static !important ;
     margin-left: 5px !important ;
   }
