@@ -8,19 +8,23 @@
   font-size: 0 !important;
   height: 24px !important;
   overflow: hidden !important;
+  z-index: 500!important;
 }
 .goog-te-banner-frame.skiptranslate {
   display: none !important;
+  z-index: 500!important;
 }
 
 iframe.skiptranslate {
   display: none !important;
   height: 0;
+  z-index: 500!important;
 }
 
 .VIpgJd-ZVi9od-ORHb-OEVmcd {
   display: none !important;
   height: 0;
+  z-index: 500!important;
 }
 
 @media screen and (max-width: 991px) {
@@ -30,5 +34,6 @@ iframe.skiptranslate {
     position: static !important ;
     margin-left: 5px !important ;
     background-color: black !important;
+    z-index: 500!important;
   }
 }
