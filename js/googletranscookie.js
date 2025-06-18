@@ -44,6 +44,6 @@
 
   // Auto-translate to French on page load (change 'fr' to your target language code)
   window.addEventListener('load', function () {
-    setLanguage('fr'); // Change to 'es', 'de', etc. as needed
+    setLanguage('en'); // Change to 'es', 'de', etc. as needed
   });
 
