@@ -358,7 +358,7 @@
 		
 		if (location.pathname == '/homes-for-sale-search/' ) {
 			setTimeout(function(){
-				jQuery('.ip-banner canvas').attr('style','background-image: url(https://www.quianawatson.com/wp-content/uploads/2021/07/search-banner.jpg);');
+				jQuery('.ip-banner canvas').attr('style','background-image: url(https://www.quianashonte.com/app/uploads/2021/07/search-banner.jpg);');
 			},200);		
 		}
 

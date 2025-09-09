@@ -197,7 +197,7 @@
 				setTimeout(function(){
 					jQuery('.field--featured-image img').each(function(){
 
-						jQuery(this).attr('src','https://www.quianawatson.com/wp-content/uploads/2024/11/lawrence-yun-instant-reaction-03-23-2020-1300w-867h_0.png');
+						jQuery(this).attr('src','https://www.quianashonte.com/app/uploads/2024/11/lawrence-yun-instant-reaction-03-23-2020-1300w-867h_0.png');
 
 					});
 				},200);
