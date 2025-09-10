@@ -27,6 +27,15 @@ iframe.skiptranslate {
   z-index: 500!important;
 }
 
+
+.header-menu {
+  background-color: rgba(0, 0, 0, 0.862)!important;
+  height: 20px!important;
+  padding: 50px 0px 50px 0px!important;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (max-width: 991px) {
   #google_translate_element {
     /* height: 0px; */
@@ -36,4 +45,33 @@ iframe.skiptranslate {
     background-color: black !important;
     z-index: 500!important;
   }
+
 }
+@media screen and (max-width: 500px) {
+
+  .header-logo {
+  /* width: 70px!important; */
+  margin-bottom: 10px!important;
+  margin-top: 10px!important;
+}
+
+.header-menu li a {
+ font-size: 14px!important;
+ 
+}
+
+.menu_btn   {
+  width: 50px!important;
+  color: rgb(61, 61, 61)!important;
+  margin: 20px!important;
+}
+.header-menu {
+  background-color: rgba(0, 0, 0, 0.862)!important;
+  height: 20px!important;
+  padding: 30px 0px 30px 0px!important;
+  display: flex;
+  justify-content: space-between;
+}
+}
+
+
