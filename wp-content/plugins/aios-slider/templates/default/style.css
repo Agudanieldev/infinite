@@ -1,0 +1,75 @@
+/* Default AIOS Slider template styles (local replacement for the plugin file). */
+.aios-slider.aios-slider-template-default .aios-slider-splide {
+  position: relative;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-slide {
+  position: relative;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #dedede;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-img picture,
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center center;
+  object-position: center center;
+  pointer-events: none;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .aios-slider-img canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .splide__arrow {
+  background: transparent;
+  color: #fff;
+  opacity: 1;
+  font-size: 26px;
+  width: 64px;
+  height: 64px;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .splide__arrow svg {
+  display: none;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .splide__arrow i {
+  font-size: 26px;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .splide__arrow--prev {
+  left: 20px;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-splide .splide__arrow--next {
+  right: 20px;
+}
+
+.aios-slider.aios-slider-template-default .aios-slider-tagline {
+  position: absolute;
+  z-index: 2;
+  max-width: 520px;
+  padding: 24px 28px;
+  color: #fff;
+}
